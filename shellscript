@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "Current Date: `date`"
+num1=56
+echo "number 1 is : $num1"
+echo "enter number 2:"
+read n
+result=$( expr $num1 + $n )
+echo "Result: $result"
